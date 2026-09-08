@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email JS</title>
+    <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="./email.js" defer></script>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <form id="contactForm">
+        <label>Name :</label>
+        <input type="text" id="name" required><br><br>
+
+        <label>Email : :</label>
+        <input type="text" id="email" required><br><br>
+
+        <label>Subject :</label>
+        <input type="text" id="subject" required><br><br>
+
+        <label>Message :</label>
+        <textarea id="message" required></textarea><br><br>
+
+        <button type="submit">Send Message</button>
+    </form>
+    <p id="status"></p>
+    
+</body>
+</html>
